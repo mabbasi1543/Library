@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Library</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            Library
+        </nav>
+        <section id="books">
+
+        </section>
+        <footer>
+            Designed By SottaByte
+        </footer>
+    </div>
+
+    <div id="modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <form id="form">
+            <legend></legend>
+            <label for="title">Book title</label>
+            <input type="text" id="ftitle" name="title" required value=""><br>
+            <label for="title">Book author</label>
+            <input type="text" id="fauthor" name="author" required value=""><br>
+            <label for="title">Pages</label>
+            <input type="number" id="fpages" name="pages" value="1" min="1" required><br>
+            <label for="title">Have you read this?</label>
+            <input type="checkbox" id="fread" name="read"><br>
+            <button type="submit" id="submitBtm">Save</button>
+          </form>
+        </div>
+      
+      </div>
+</body>
+</html>
